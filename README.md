@@ -1,6 +1,6 @@
 # arch-diagram-skill
 
-`architecture-diagram` スキルを別 PC やチーム環境に `npx skills add` で 1 コマンド導入するための配布用 Git リポジトリです。
+`arch-diagram` スキルを別 PC やチーム環境に `npx skills add` で 1 コマンド導入するための配布用 Git リポジトリです。
 
 ---
 
@@ -23,7 +23,7 @@ npx skills add btczoa/arch-diagram-skill
 
 または明示的にスキル名を指定する場合：
 ```bash
-npx skills add btczoa/arch-diagram-skill --skill architecture-diagram
+npx skills add btczoa/arch-diagram-skill --skill arch-diagram
 ```
 
 ### 2. ローカル環境からの検証・追加
@@ -40,7 +40,7 @@ npx skills add ./path/to/architecture-diagram-skill
 npx skills list
 
 # スキルの実行確認
-npx skills run architecture-diagram
+npx skills run arch-diagram
 ```
 
 ---
@@ -53,7 +53,7 @@ arch-diagram-skill/
 ├── skill.json                      # スキル定義マニフェスト
 ├── SKILL.md                        # ルート定義
 └── skills/
-    └── architecture-diagram/       # スキル本体
+    └── arch-diagram/               # スキル本体
         ├── SKILL.md                # スキル仕様・プロンプト定義
         └── assets/
             └── template.html       # アーキテクチャ図用ベーステンプレート

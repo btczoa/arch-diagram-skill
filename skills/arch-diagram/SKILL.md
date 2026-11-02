@@ -1,5 +1,5 @@
 ---
-name: architecture-diagram
+name: arch-diagram
 description: Create professional, light-themed architecture diagrams as standalone HTML files with SVG graphics. Use when the user asks for system architecture diagrams, infrastructure diagrams, cloud architecture visualizations, security diagrams, network topology diagrams, or any technical diagram showing system components and their relationships.
 license: MIT
 metadata:
@@ -7,7 +7,7 @@ metadata:
   author: Cocoon AI (hello@cocoon-ai.com)
 ---
 
-# Architecture Diagram Skill (Light Mode)
+# arch-diagram (Light Mode)
 
 Create professional, high-contrast light-themed technical architecture diagrams as self-contained HTML files with inline SVG graphics and CSS styling.
 
