@@ -13,10 +13,14 @@ Create professional, high-contrast light-themed technical architecture diagrams 
 
 ## Diagram Generation Style Guidelines (Architecture / Infographics)
 When generating architecture diagrams, workflow charts, or system visual assets:
-1. **Layout**: Adapt the layout flexibly (vertical top-down, horizontal left-to-right, or modular grid) based on system hierarchy, data flow, and readability requirements, using clear directional connectors/arrows.
-2. **Aesthetics**: Clean, minimalist vector style with a solid white background. No cluttered elements or excessive gradients.
-3. **Color Coding**: Use a harmonious tech palette (vibrant blue, soft purple, fresh green) where each architectural layer has a distinct, consistent color.
-4. **Typography & Icons**: Every card must feature a bold, legible title, a smaller secondary description, and a minimalist line-art icon on the left.
+1. **Dual Architecture Diagram Standard (Rule.14)**:
+   - アーキテクチャ図の生成時は、必ず以下の **2種類の図を対（ペア）として作成・配置** すること。
+     - **① ハイレベル論理アーキテクチャ図**: ユーザー、クライアントSPA/外部ツール、APIゲートウェイ/プロキシ、バックエンドモデル群、主要ユースケース別の論理データフロー。
+     - **② インフラ・ネットワークレベル物理アーキテクチャ図**: 実行ランタイム（V8 Isolate / Docker / コンテナ）、暗号化境界（TLS）、ポート番号（443, 8000等）、ネットワーク境界（Public / ngrok トンネル / VPC）、認証トークン伝送経路。
+2. **Layout**: Adapt the layout flexibly (vertical top-down, horizontal left-to-right, or modular grid) based on system hierarchy, data flow, and readability requirements, using clear directional connectors/arrows.
+3. **Aesthetics**: Clean, minimalist vector style with a solid white background. No cluttered elements or excessive gradients.
+4. **Color Coding**: Use a harmonious tech palette (vibrant blue, soft purple, fresh green) where each architectural layer has a distinct, consistent color.
+5. **Typography & Icons**: Every card must feature a bold, legible title, a smaller secondary description, and a minimalist line-art icon on the left.
 
 ## Design System (Light Mode)
 
